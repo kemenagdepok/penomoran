@@ -17,7 +17,7 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 * **Frontend:** HTML5, CSS3, JavaScript
 * **URL:** [https://penomoran.amal.or.id/](https://depok.kemenag.go.id/s/penomoran)
 
-## ⚙️ Instalasi Lokal
+## Instalasi Lokal
 
 1.  **Clone Repositori**
     ```bash
@@ -32,7 +32,7 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 3.  **Jalankan Aplikasi**
     * Akses melalui browser: `pranala yang diberikan oleh Google Apps Script`.
 
-## 📌 Informasi Tambahan
+## Informasi Tambahan
 
 * **Pembuatan Akun & Reset Password:** Untuk unit kerja di lingkungan Kantor Kementerian Agama Kota Depok, silakan menghubungi **Urusan Umum**.
 * **Maintenance:** Pembaruan sistem dilakukan secara berkala untuk meningkatkan keamanan dan performa layanan.
