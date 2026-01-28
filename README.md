@@ -40,5 +40,4 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 ---
 
 **Pengembang:**
-Faishal Wafiq Zakiy,
-*Pranata Komputer pada Sub Bagian Tata Usaha Kantor Kementerian Agama Kota Depok Provinsi Jawa Barat.*
+Pranata Komputer pada Sub Bagian Tata Usaha Kantor Kementerian Agama Kota Depok Provinsi Jawa Barat.
