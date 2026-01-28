@@ -41,3 +41,4 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 
 **Pengembang:**
 Faishal Wafiq Zakiy
+*Pranata Komputer*
