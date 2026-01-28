@@ -17,9 +17,9 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 * **Frontend:** HTML5, CSS3, JavaScript
 * **URL:** [https://depok.kemenag.go.id/s/penomoran](https://depok.kemenag.go.id/s/penomoran)
 
-## Instalasi Lokal
+## Instalasi Daring
 
-1.  **Clone Repositori**
+1.  **Salinan Kode**
     ```bash
     Silakan ditanyakan ke Urusan Umum Sub Bagian Tata Usaha Kantor Kementerian Agama Kota Depok.
     ```
@@ -40,5 +40,5 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 ---
 
 **Pengembang:**
-Faishal Wafiq Zakiy
-*Pranata Komputer*
+Faishal Wafiq Zakiy,
+*Pranata Komputer pada Sub Bagian Tata Usaha Kantor Kementerian Agama Kota Depok Provinsi Jawa Barat.*
