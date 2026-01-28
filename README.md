@@ -15,7 +15,7 @@ Sistem Informasi Manajemen Penomoran dan Pengarsipan Surat secara Digital dari U
 * **Bahasa Pemrograman:** JavaScript
 * **Database:** Spreadsheet
 * **Frontend:** HTML5, CSS3, JavaScript
-* **URL:** [https://penomoran.amal.or.id/](https://depok.kemenag.go.id/s/penomoran)
+* **URL:** [https://depok.kemenag.go.id/s/penomoran](https://depok.kemenag.go.id/s/penomoran)
 
 ## Instalasi Lokal
 
