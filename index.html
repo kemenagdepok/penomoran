@@ -1,64 +1,131 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-  <title>e-Penomoran Kemenag Kota Depok</title>
+    <meta charset="UTF-8">
+    <!-- Pengaturan viewport agar responsif di perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta name="description" content="Aplikasi untuk mendapatkan nomor surat keluar, SPD, dan SK dari Bagian Umum untuk Kantor Kementerian Agama Kota Depok." />
+    <!-- Silakan ubah judul ini sesuai dengan nama web Anda -->
+    <title>E-Penomoran Kantor Kementerian Agama Kota Depok</title>
+    
+    <!-- Meta Tags & OpenGraph -->
+    <meta name="description" content="Aplikasi untuk mendapatkan nomor surat keluar, SPD, dan SK dari Urusan Umum Sub Bagian Tata Usaha Kantor Kementerian Agama Kota Depok." />
     <meta name="robots" content="noindex,nofollow">
 
-    <link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWcsVEWLVymgFfSkHP-qjh54XQIK1d2mpCUjy5klezuw_e7q_n3vCIj2UFZJhpnFPKG4l_iRDGeyKl9o-lp12s-bZPEQuk4oEWNeg6URKFjL4MsNy6oZNR8gkyYje75Np5D3H5Vzv8BYBqHuuElIXrUP6BAiG747IY8bZ6NbT5VWM0N5O6XT4DKmWmD1A/s0/logo-kemenag.webp' rel='icon' type='image/webp'/>
-    <link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWcsVEWLVymgFfSkHP-qjh54XQIK1d2mpCUjy5klezuw_e7q_n3vCIj2UFZJhpnFPKG4l_iRDGeyKl9o-lp12s-bZPEQuk4oEWNeg6URKFjL4MsNy6oZNR8gkyYje75Np5D3H5Vzv8BYBqHuuElIXrUP6BAiG747IY8bZ6NbT5VWM0N5O6XT4DKmWmD1A/s0/logo-kemenag.webp' rel='apple-touch-icon'/>
+    <link href='https://depok.kemenag.go.id/uploads/branding/logo.webp' rel='icon' type='image/webp'/>
+    <link href='https://depok.kemenag.go.id/uploads/branding/logo.webp' rel='apple-touch-icon'/>
 
     <meta content='id_ID' property='og:locale'/>
-    <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWcsVEWLVymgFfSkHP-qjh54XQIK1d2mpCUjy5klezuw_e7q_n3vCIj2UFZJhpnFPKG4l_iRDGeyKl9o-lp12s-bZPEQuk4oEWNeg6URKFjL4MsNy6oZNR8gkyYje75Np5D3H5Vzv8BYBqHuuElIXrUP6BAiG747IY8bZ6NbT5VWM0N5O6XT4DKmWmD1A/s0/logo-kemenag.webp' property='og:logo'/>
+    <meta content='https://depok.kemenag.go.id/uploads/branding/logo.webp' property='og:logo'/>
     
     <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigg8t8V7VKea3DGuCh7Tr99boH0x4M75NI4uOog1v8DCKkReHiEwUQzV1TfC5suJHwAPVva3n7BdoXjbDvJIqAYU2pjriff-NiPw2PxGwq4sSQjqNTosvFLw4DidCPDVIJRGXkK-OGXwkNKXJJR7r4zZlpb2WJD8Mt3-R0IT90tQrHX_KwJSZD2flS7MY/s0/gambar-unggulan-kemenag.webp' property='og:image'/>
     <meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigg8t8V7VKea3DGuCh7Tr99boH0x4M75NI4uOog1v8DCKkReHiEwUQzV1TfC5suJHwAPVva3n7BdoXjbDvJIqAYU2pjriff-NiPw2PxGwq4sSQjqNTosvFLw4DidCPDVIJRGXkK-OGXwkNKXJJR7r4zZlpb2WJD8Mt3-R0IT90tQrHX_KwJSZD2flS7MY/s0/gambar-unggulan-kemenag.webp' name='twitter:image'/>
     <meta content='summary_large_image' name='twitter:card'/>
-    <meta expr:content='data:blog.pageTitle' property='og:title'/>
-    <meta expr:content='data:blog.url' property='og:url'/>
+    <meta content='E-Penomoran Kantor Kementerian Agama Kota Depok' property='og:title'/>
+    <meta content='https://epenomoran.blogspot.com/' property='og:url'/>
     <meta content='website' property='og:type'/>
 
+    <link rel="icon" href="https://depok.kemenag.go.id/uploads/branding/logo.webp" />
+    
+    <style>
+        /* Menghilangkan margin dan padding bawaan browser */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff; /* Diubah menjadi putih bersih */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-  <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWcsVEWLVymgFfSkHP-qjh54XQIK1d2mpCUjy5klezuw_e7q_n3vCIj2UFZJhpnFPKG4l_iRDGeyKl9o-lp12s-bZPEQuk4oEWNeg6URKFjL4MsNy6oZNR8gkyYje75Np5D3H5Vzv8BYBqHuuElIXrUP6BAiG747IY8bZ6NbT5VWM0N5O6XT4DKmWmD1A/s0/logo-kemenag.webp" />
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #eee;
-      overflow: hidden; /* Mencegah scroll ganda */
-    }
+        /* Pembungkus konten (tanpa gaya kotak khusus) */
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 500px;
+            width: 90%;
+        }
 
-    .iframe-container {
-      width: 100%;
-      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
-      overflow: hidden;
-    }
+        .logo {
+            width: 110px;
+            height: auto;
+            margin-bottom: 24px;
+        }
 
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+        .title {
+            font-size: 28px;
+            color: #111827;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #4b5563;
+            margin-bottom: 36px;
+            line-height: 1.6;
+        }
+
+        /* Styling untuk kotak informasi */
+        .info-text {
+            font-size: 14px;
+            color: #92400e; /* Warna teks cokelat tua/oranye */
+            background-color: #fef3c7; /* Latar belakang kuning lembut */
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 28px;
+            border: 1px solid #fde68a;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+        /* Styling untuk tombol akses */
+        .btn-akses {
+            display: inline-block;
+            background-color: #059669; /* Warna hijau Kemenag */
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+            box-shadow: 0 4px 6px rgba(5, 150, 105, 0.25);
+        }
+
+        .btn-akses:hover {
+            background-color: #047857;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(5, 150, 105, 0.3);
+        }
+
+        .btn-akses:active {
+            transform: translateY(0);
+        }
+    </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe
-      id="app"
-      src="https://script.google.com/macros/s/AKfycbyuOo9tnijCGZaD3PLlOv9l63W1F2DDfpOPzW1gxufrdhEhG38FnY3_beIuOMxdNU6b/exec"
-      scrolling="yes"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allow="fullscreen; camera; microphone; display-capture; geolocation;">
-    </iframe>
-  </div>
+
+    <div class="container">
+        <!-- Logo Kemenag -->
+        <img src="https://depok.kemenag.go.id/uploads/branding/logo.webp" alt="Logo Kemenag Kota Depok" class="logo">
+        
+        <!-- Judul dan Deskripsi -->
+        <div class="title">E-Penomoran</div>
+        <div class="description" style="margin-bottom: 24px;">
+            Aplikasi untuk mendapatkan nomor surat keluar, SPD, dan SK dari Urusan Umum Sub Bagian Tata Usaha Kantor Kementerian Agama Kota Depok.
+        </div>
+
+        <!-- Tambahan Keterangan -->
+        <div class="info-text">
+            <strong>Informasi:</strong> Sehubungan dengan adanya perubahan aturan dari Pusdatin, tautan akses aplikasi E-Penomoran telah dialihkan.
+        </div>
+        
+        <!-- Tombol Akses -->
+        <a href="https://epenomoran.blogspot.com/" class="btn-akses">Akses Aplikasi E-Penomoran</a>
+    </div>
+
 </body>
 </html>
